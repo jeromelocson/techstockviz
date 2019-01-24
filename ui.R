@@ -37,7 +37,8 @@ shinyUI(fluidPage(
                 If 404 error occurs, please reselect another ticker or refresh the page.
                 Information will be collected from Yahoo finance - https://finance.yahoo.com/."),
         tags$li("Now, select the date range on which you want to explore both the stock volume and the price performances below. If you want to look closer, please select closer dates."),
-        tags$li(tags$a(href="https://www.youtube.com/embed/1rwVV_8uUxc", "Click here to learn on how to read the candlestick chart."))
+        tags$li(tags$a(href="https://www.youtube.com/embed/1rwVV_8uUxc", "Click here to learn on how to read the candlestick chart.")),
+        tags$li(tags$a(href="https://github.com/jeromelocson/techstockviz", "View code at Github."))
       )
       
     ),
